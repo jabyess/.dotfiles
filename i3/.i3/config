@@ -196,7 +196,7 @@ bindsym XF86AudioPause exec pactl pause
 bindsym XF86AudioNext exec pactl next
 bindsym XF86AudioPrev exec pactl previous
 
-bindsym Mod4+l exec i3lock
+bindsym Mod4+l exec i3lock-fancy -- scrot -z
 
 
 #######################################################################

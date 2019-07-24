@@ -106,6 +106,8 @@ alias p="python3"
 alias clip="xclip -selection clipboard"
 alias leftof="xrandr --output DP1 --auto --left-of eDP1"
 alias rightof="xrandr --output DP1 --auto --right-of eDP1"
+alias sdn="sudo shutdown -h now"
+alias grhh="git reset HEAD --hard"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
