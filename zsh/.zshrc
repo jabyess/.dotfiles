@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
   export ZSH="/home/jabyess/.oh-my-zsh"
+  export GOPATH="/home/jabyess/go/"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -69,8 +70,11 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+#
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/jabyess/go/bin
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -115,3 +119,6 @@ export NVM_DIR="$HOME/.nvm"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export PATH="$PATH:$HOME/flutter/bin"
+export PATH="$PATH:$HOME/android-studio/bin"
